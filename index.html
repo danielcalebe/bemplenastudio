@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bem Plena - Estúdio de Beleza</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <link rel="stylesheet" href="assets/styles.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="">
+                 <img src="/assets/img/logopink.png" alt="" class="logo"> <i style="color: #e585b5;" class="fas fa-spa"> </i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeria">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#depoimentos">Depoimentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#precos">Preços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Carousel -->
+    <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2"></button>
+        </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/Snapinsta.app_459331498_839429324983690_8631482694410610901_n_1080.jpg"
+                        class="d-block w-100" alt="">
+                    <div class="carousel-overlay">
+                        <div class="text-white">
+                            <h1  class="oliver-font">Bem-vinda ao estúdio </h1><h1 class="bungasay-font" > Bem Plena</h1>
+                            <p class="lead">Sua beleza em mãos experientes</p>
+                            <a href="https:wa.me//+5531973521762" class="btn botao-rosa" target="_blank">Agende Agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <video class="d-block w-100" autoplay loop muted >
+                        <source src="assets/img/Snapinsta.app_video_8140654434343A7E1F4A5C90E86AA791_video_dashinit.mp4" type="video/mp4">
+                        Seu navegador não suporta vídeos HTML5.
+                    </video>
+                    
+                    <div class="carousel-overlay">
+                        <div class="text-white">
+                            <h1 class="oliver-font">Designs Exclusivos</h1>
+                            <p class="lead">Arte em cada detalhe</p>
+                            <a href="#galeria" class="btn botao-branco" style="color: #ff2a7f;">Ver Galeria</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/Snapinsta.app_466946487_933060448882692_2841906645614511193_n_1080.jpg"
+                    class="d-block w-100" alt="">
+                    <div class="carousel-overlay">
+                        <div class="text-white">
+                            <h1 class="oliver-font" style=" border: #e585b5 solid 2px; border-radius: 10px;">Promoções Especiais</h1>
+                            <p class="lead" >Confira nossos preços e serviços</p>
+                            <a href="#precos" class="btn botao-rosa">Ver Preços</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!-- Serviços -->
+    <section id="servicos" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Nossos Serviços</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-paint-brush mb-3" style="font-size: 2em; color: var(--primary-pink);"></i>
+                            <h5 class="card-title">Nail Art</h5>
+                            <p class="card-text">Designs exclusivos e personalizados para suas unhas.</p>
+                        </div>
+                    </div>
+                </div>
+             
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-bodyy text-center">
+                            <i class="bi bi-gem" style="font-size: 2em; color: var(--light-pink);"></i>
+                            <h5 class="card-title">Depilação</h5>
+                            <p class="card-text">Serviços de depilação com técnicas seguras e eficazes sua pele lisa e suave .</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-spa mb-3" style="font-size: 2em; color: var(--primary-pink);"></i>
+                            <h5 class="card-title">Manicure e Pedicure</h5>
+                            <p class="card-text">Cuidados completos para mãos, pés e unhas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-bodyy text-center">
+                            <i class="fa-solid fa-eye" style="font-size: 2em; color: var(--light-pink);"></i>
+                            <h5 class="card-title">Extensão de cílios</h5>
+                            <p class="card-text">Extensões de cílios sob medida, proporcionando um efeito natural e duradouro.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body text-center">
+                            <i class="fa-brands fa-gratipay"style="font-size: 2em; color: var(--primary-pink);"></i>
+                            <h5 class="card-title">Alongamento</h5>
+                            <p class="card-text">Técnicas modernas de alongamento em gel e fibra.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-bodyy text-center">
+                            <i class="fa-brands fa-leanpub" style="font-size: 2em; color: var(--light-pink);"></i>
+                            <h5 class="card-title">Cursos</h5>
+                            <p class="card-text">Cursos especializados em técnicas de beleza para quem deseja se profissionalizar na área.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+<!-- Galeria Expandida -->
+<section id="galeria" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Nossa Galeria</h2>
+        <div class="row mb-4">
+            <!-- Mãos -->
+            <div class="col-md-4 gallery-item">
+                <div class="card border-card">
+                    <img src="assets/img/manicure.jpg" class="card-img" alt="Design Clássico" data-bs-toggle="modal" data-bs-target="#modalClassico">
+                    <div class="card-body">
+                        <h5 class="card-title text-center mt-2">Mãos</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cílios -->
+            <div class="col-md-4 gallery-item">
+                <div class="card border-card">
+                    <img src="assets/img/cilios.jpg" class="card-img" alt="Cílios" data-bs-toggle="modal" data-bs-target="#modalGeometrico">
+                    <div class="card-body">
+                        <h5 class="card-title text-center mt-2">Cílios</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pés -->
+            <div class="col-md-4 gallery-item">
+                <div class="card border-card">
+                    <img src="assets/img/pedicure.jpg" class="card-img" alt="pes" data-bs-toggle="modal" data-bs-target="#modalModerno">
+                    <div class="card-body">
+                        <h5 class="card-title text-center mt-2">Pés</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modal para Design Clássico -->
+<div class="modal fade" id="modalClassico" tabindex="-1" aria-labelledby="modalClassicoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalClassicoLabel">Design Clássico</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Imagens miniatura para Design Clássico -->
+                <div class="row">
+                    <div class="col-4">
+                        <img src="assets/img/manicure.jpg" class="img-fluid img-thumbnail" alt="Design Clássico 1" data-bs-toggle="modal" data-bs-target="#modalExpandClassico" data-bs-image="assets/img/Snapinsta.app_468177228_2584070308447440_6709342534981390090_n_1024.jpg">
+                    </div>
+                    <div class="col-4">
+                        <img src="assets/img/manicure.jpg" class="img-fluid img-thumbnail" alt="Design Clássico 2" data-bs-toggle="modal" data-bs-target="#modalExpandClassico" data-bs-image="assets/img/Snapinsta.app_468177228_2584070308447440_6709342534981390090_n_1024.jpg">
+                    </div>
+                    <div class="col-4">
+                        <img src="assets/img/manicure.jpg" class="img-fluid img-thumbnail" alt="Design Clássico 3" data-bs-toggle="modal" data-bs-target="#modalExpandClassico" data-bs-image="assets/img/Snapinsta.app_468177228_2584070308447440_6709342534981390090_n_1024.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para Design Geométrico -->
+<div class="modal fade" id="modalGeometrico" tabindex="-1" aria-labelledby="modalGeometricoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalGeometricoLabel">Design Geométrico</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Imagens miniatura para Design Geométrico -->
+                <div class="row">
+                    <div class="col-4">
+                        <img src="imagens/geometrico1.jpg" class="img-fluid img-thumbnail" alt="Design Geométrico 1" data-bs-toggle="modal" data-bs-target="#modalExpandGeometrico" data-bs-image="imagens/geometrico1.jpg">
+                    </div>
+                    <div class="col-4">
+                        <img src="imagens/geometrico2.jpg" class="img-fluid img-thumbnail" alt="Design Geométrico 2" data-bs-toggle="modal" data-bs-target="#modalExpandGeometrico" data-bs-image="imagens/geometrico2.jpg">
+                    </div>
+                    <div class="col-4">
+                        <img src="imagens/geometrico3.jpg" class="img-fluid img-thumbnail" alt="Design Geométrico 3" data-bs-toggle="modal" data-bs-target="#modalExpandGeometrico" data-bs-image="imagens/geometrico3.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para Design Moderno -->
+<div class="modal fade" id="modalModerno" tabindex="-1" aria-labelledby="modalModernoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalModernoLabel">Design Moderno</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Imagens miniatura para Design Moderno -->
+                <div class="row">
+                    <div class="col-4">
+                        <img src="assets/img/Snapinsta.app_468177228_2584070308447440_6709342534981390090_n_1024.jpg" class="img-fluid img-thumbnail" alt="Design Moderno 1" data-bs-toggle="modal" data-bs-target="#modalExpandModerno" data-bs-image="imagens/moderno1.jpg">
+                    </div>
+                    <div class="col-4">
+                        <img src="imagens/moderno2.jpg" class="img-fluid img-thumbnail" alt="Design Moderno 2" data-bs-toggle="modal" data-bs-target="#modalExpandModerno" data-bs-image="imagens/moderno2.jpg">
+                    </div>
+                    <div class="col-4">
+                        <img src="imagens/moderno3.jpg" class="img-fluid img-thumbnail" alt="Design Moderno 3" data-bs-toggle="modal" data-bs-target="#modalExpandModerno" data-bs-image="imagens/moderno3.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal de Expansão de Imagem -->
+<!-- Expande a imagem quando clicada -->
+<div class="modal fade" id="modalExpandClassico" tabindex="-1" aria-labelledby="modalExpandClassicoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img id="expandImageClassico" src="" class="img-fluid w-100" alt="Expansão Design Clássico">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalExpandGeometrico" tabindex="-1" aria-labelledby="modalExpandGeometricoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img id="expandImageGeometrico" src="" class="img-fluid w-100" alt="Expansão Design Geométrico">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalExpandModerno" tabindex="-1" aria-labelledby="modalExpandModernoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img id="expandImageModerno" src="" class="img-fluid w-100" alt="Expansão Design Moderno">
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Depoimentos -->
+    <section id="depoimentos" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Depoimentos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <i class="fas fa-quote-left mb-3" style="color: var(--primary-pink);"></i>
+                        <p>"Melhor lugar para cuidar das unhas! Profissionais super atenciosas."</p>
+                        <footer class="blockquote-footer">Maria Silva</footer>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <i class="fas fa-quote-left mb-3" style="color: var(--primary-pink);"></i>
+                        <p>"Designs incríveis e atendimento impecável. Super recomendo!"</p>
+                        <footer class="blockquote-footer">Ana Santos</footer>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <i class="fas fa-quote-left mb-3" style="color: var(--primary-pink);"></i>
+                        <p>"Ambiente acolhedor e resultados maravilhosos sempre!"</p>
+                        <footer class="blockquote-footer">Paula Oliveira</footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Preços-->
+<!-- Serviços -->
+<!-- Nossos Preços -->
+<section id="precos" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Nossos Preços</h2>
+        <div class="row">
+            <!-- Cuidados -->
+            <div class="col-md-4">
+                <div class="price-card">
+                    <h3 class="price-title">Cuidados</h3>
+                    <ul class="price-list">
+                        <li>Manicure <span>R$25,00</span></li>
+                        <li>Pedicure <span>R$25,00</span></li>
+                        <li>Manicure e Pedicure <span>R$40,00</span></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Alongamento de Unha -->
+            <div class="col-md-4">
+                <div class="price-card">
+                    <h3 class="price-title">Alongamento de Unha</h3>
+                    <ul class="price-list">
+                        <li>Unhas Postiças <span>R$45,00</span></li>
+                        <li>Unhas de Gel <span>R$80,00</span></li>
+                        <li>Unhas de Fibra de Vidro <span>R$100,00</span></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Esmaltação -->
+            <div class="col-md-4">
+                <div class="price-card">
+                    <h3 class="price-title">Esmaltação</h3>
+                    <ul class="price-list">
+                        <li>Simples <span>R$15,00</span></li>
+                        <li>Em Gel <span>R$20,00</span></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Manutenção -->
+            <div class="col-md-4">
+                <div class="price-card">
+                    <h3 class="price-title">Manutenção</h3>
+                    <ul class="price-list">
+                        <li>Unhas de Gel <span>R$60,00</span></li>
+                        <li>Unhas de Fibra de Vidro <span>R$80,00</span></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Decoração -->
+            <div class="col-md-4">
+                <div class="price-card">
+                    <h3 class="price-title">Decoração</h3>
+                    <ul class="price-list">
+                        <li>Nail Art <span>R$20,00</span></li>
+                        <li>Francesinha <span>R$10,00</span></li>
+                        <li>Francesinha Reversa <span>R$10,00</span></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- SPA -->
+            <div class="col-md-4">
+                <div class="price-card">
+                    <h3 class="price-title">SPA</h3>
+                    <ul class="price-list">
+                        <li>Mãos <span>R$35,00</span></li>
+                        <li>Pés <span>R$45,00</span></li>
+                        <li>Mãos e Pés <span>R$70,00</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container text-center">
+            <h2 class="mb-4">Agende seu Horário</h2>
+            <p class="lead mb-4">Transforme suas unhas com nossa equipe especializada</p>
+            <a href="https://wa.me/5500000000000" class="btn btn-light btn-lg">
+                <i class="fab fa-whatsapp"></i> Agendar por WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center text-md-start">
+                    <a class="navbar-brand" href="">
+                        <img src="/assets/img/logopink.png" alt="" class="logo"> <i style="color: #e585b5;" class="fas fa-spa"> </i></a>
+                    <p>Seu studio de beleza feminina preferido</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h5>Contato</h5>
+                    <p>
+                        <i class="fas fa-phone"></i> (31) 00000-0000<br>
+                        <i class="fas fa-envelope"></i> contato@bemplena.com
+                    </p>
+                </div>
+                <div class="col-md-4 text-center text-md-end">
+                    <h5>Siga-nos</h5>
+                    <div class="social-icons">
+                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script src="/assets/scripts.js"></script>
+    <script>
+         document.addEventListener('DOMContentLoaded', function() {
+        // Função para atualizar a imagem expandida nos modais
+        function updateImage(modalId, imgId) {
+            var modal = document.getElementById(modalId);
+            modal.addEventListener('show.bs.modal', function(event) {
+                var button = event.relatedTarget; // Elemento que disparou o evento
+                var imageSrc = button.getAttribute('data-bs-image'); // Pega o caminho da imagem
+                var modalImage = modal.querySelector(`#${imgId}`);
+                modalImage.src = imageSrc; // Atualiza o src da imagem no modal
+            });
+        }
+
+        // Atualizar cada modal de imagem expandida
+        updateImage('modalExpandClassico', 'expandImageClassico');
+        updateImage('modalExpandGeometrico', 'expandImageGeometrico');
+        updateImage('modalExpandModerno', 'expandImageModerno');
+    });
+    </script>
+</body>
+
+</html>
